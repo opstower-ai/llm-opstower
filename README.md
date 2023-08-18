@@ -39,7 +39,7 @@ llm models default opstower
 llm 'What is the average CPU utilization of my EC2 instances?'
 ```
 
-See [some example questions](https://gist.github.com/itsderek23/300fb4184c10895f82a9b9eb62fabd60) the agent has been tested with as well as our current [evaluation results](https://www.opstower.ai/2023-evaluating-ai-agents/).
+See [some example questions](https://gist.github.com/itsderek23/300fb4184c10895f82a9b9eb62fabd60) the agent has been evaluated with and the [evaluation results](https://www.opstower.ai/2023-evaluating-ai-agents/).
 
 ## Example output:
 
