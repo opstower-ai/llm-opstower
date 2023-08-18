@@ -6,7 +6,7 @@ This is an AWS CLI AI assistant that can answer questions about your AWS resourc
 
 ## Installation
 
-Installed as a plugin for [LLM](https://llm.datasette.io/), A CLI utility and Python library for interacting with Large Language Models.
+Installed as a plugin for [LLM](https://llm.datasette.io/), A CLI utility for interacting with LLMs.
 
 Install `llm` if you haven't yet:
 
