@@ -41,7 +41,7 @@ See [some example questions](https://gist.github.com/itsderek23/300fb4184c10895f
 
 ## Example output:
 
-```bash
+```
 % llm 'What is the average CPU utilization of my EC2 instances?'
 
 Log:
