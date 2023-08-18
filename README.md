@@ -20,7 +20,8 @@ Install the OpsTower plugin:
 llm install https://github.com/opstower-ai/llm-opstower/archive/refs/heads/main.zip
 ```
 
-Set your API key. When prompted, provide your API key in the form of `AWS_ACCESS_KEY_ID:AWS_SECRET_ACCESS_KEY`:
+Set your API key.
+When prompted, provide your API key in the form of `AWS_ACCESS_KEY_ID:AWS_SECRET_ACCESS_KEY`:
 
 ```bash
  llm keys set opstower
