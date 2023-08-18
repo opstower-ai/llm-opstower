@@ -1,8 +1,6 @@
 # 🗼 OpsTower.ai AWS AI CLI Assistant
 
-Do you have trouble navigating the AWS console and remembering AWS CLI commands? You do?! Well, you're in luck!
-
-This is an AWS CLI AI assistant that can answer questions about your AWS resources and perform calculations on cloudwatch metrics from the command line.
+An AWS CLI AI assistant that can answer questions about your AWS resources and perform calculations on cloudwatch metrics from the command line.
 
 ## Installation
 
