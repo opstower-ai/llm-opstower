@@ -56,4 +56,9 @@ Generating AWS SDK code...this will take up to 60 seconds...
 The average CPU utilization of your EC2 instances is approximately 40.12%.
 ```
 
+## Uninstall
+
+```bash
+llm uninstall llm-opstower
+```
 
