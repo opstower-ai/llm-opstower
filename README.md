@@ -2,7 +2,7 @@
 
 Do you have trouble navigating the AWS console and remembering AWS CLI commands? You do?! Well, you're in luck!
 
-This is an AWS CLI AI assistant that lets you fetch information about your AWS resources using natural language.
+This is an AWS CLI AI assistant that can answer questions about your AWS resources and perform calculations on cloudwatch metrics from the command line.
 
 ## Installation
 
