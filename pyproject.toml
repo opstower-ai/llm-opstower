@@ -1,0 +1,6 @@
+[project]
+name = "llm-opstower"
+version = "0.1"
+
+[project.entry-points.llm]
+opstower = "llm_opstower"
