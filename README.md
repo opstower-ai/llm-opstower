@@ -2,7 +2,9 @@
 
 An AWS CLI AI assistant that can answer questions about your AWS resources and perform calculations on cloudwatch metrics from the command line.
 
-[![asciicast](https://asciinema.org/a/604723.svg)](https://asciinema.org/a/604723)
+<p align="center">
+  <img width="750" src="./opstower-cli.svg">
+</p>
 
 ## Installation
 
