@@ -30,8 +30,7 @@ Install the OpsTower plugin:
 llm install https://github.com/opstower-ai/llm-opstower/archive/refs/heads/main.zip
 ```
 
-Set your API key. 
-Use `demo` to try with a live AWS account we provide. Or, provide a key in the form of `AWS_ACCESS_KEY_ID:AWS_SECRET_ACCESS_KEY`:
+Set your API key. Use `demo` to try with a live AWS account.
 
 ```bash
 llm keys set opstower --value demo
@@ -50,6 +49,14 @@ llm "What is the average CPU utilization of my EC2 instances?"
 ```
 
 See [some example questions](https://gist.github.com/itsderek23/300fb4184c10895f82a9b9eb62fabd60) the agent has been evaluated with and the [evaluation results](https://www.opstower.ai/2023-evaluating-ai-agents/).
+
+## Authentication
+
+You can query against your account by setting your API key in the following format:
+
+```bash
+llm keys set opstower --value AWS_ACCESS_KEY_ID:AWS_SECRET_ACCESS_KEY
+```
 
 ## Demo Mode
 
