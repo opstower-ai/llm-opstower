@@ -7,11 +7,11 @@ An AWS CLI AI assistant that can answer questions about your AWS resources and p
 </p>
 
 <p align="center">
-<a href="#user-content-install">Install</a>
+<a href="#user-content-install"><strong>Install</strong></a>
 <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-<a href="#user-content-usage">Usage</a>
+<a href="#user-content-usage"><strong>Usage</strong></a>
 <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-<a href="#user-content-demo-mode">Demo Mode</a>
+<a href="#user-content-demo-mode"><strong>Demo Mode</strong></a>
 </p>
 
 ## Install
