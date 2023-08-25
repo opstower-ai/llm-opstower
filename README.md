@@ -6,7 +6,15 @@ An AWS CLI AI assistant that can answer questions about your AWS resources and p
   <img width="650" src="./opstower-cli.svg">
 </p>
 
-## Installation
+<p align="center">
+<a href="#user-content-install">Install</a>
+<span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+<a href="#user-content-usage">Usage</a>
+<span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+<a href="#user-content-demo-mode">Demo Mode</a>
+</p>
+
+## Install
 
 Installed as a plugin for [LLM](https://llm.datasette.io/), A CLI utility for interacting with LLMs.
 
