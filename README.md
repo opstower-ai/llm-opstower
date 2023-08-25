@@ -55,10 +55,10 @@ See [some example questions](https://gist.github.com/itsderek23/300fb4184c10895f
 
 You can execute commands against a demonstration AWS account that contains an EC2 instance, RDS instance, an Application Load Balancer, several Lambda functions, S3 buckets, and more. 
 
-Set the opstower key to `demo` when prompted:
+Set the opstower key to `demo`:
 
 ```bash
-llm keys set opstower
+llm keys set opstower --value demo
 ```
 
 ## Uninstall
@@ -86,7 +86,7 @@ You can create an IAM user with read-only access for use with OpsTower.ai.
 
 ## How it works
 
-OpsTower.ai provides a OpenAI-compatible API. The `llm` CLI utility sends your credentials and question to our API. We then generate AWS SDK code to answer your question in an isolated environment and summarize the response.
+OpsTower.ai provides a OpenAI-compatible API. The `llm` CLI utility sends your credentials and question to our API. We then generate AWS SDK code to answer your question and execute it in an isolated environment, summarizing the response.
 
 ## Limitations
 
