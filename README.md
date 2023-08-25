@@ -30,11 +30,12 @@ Install the OpsTower plugin:
 llm install https://github.com/opstower-ai/llm-opstower/archive/refs/heads/main.zip
 ```
 
-Set your API key.
-When prompted, provide your API key in the form of `AWS_ACCESS_KEY_ID:AWS_SECRET_ACCESS_KEY`:
+Set your API key. 
+Use `demo` to try with a live AWS account we provide. Or, provide a key in the form of `AWS_ACCESS_KEY_ID:AWS_SECRET_ACCESS_KEY`:
 
 ```bash
  llm keys set opstower
+llm keys set opstower --value demo
 ```
 
 Make `opstower` your default model:
@@ -59,21 +60,6 @@ Set the opstower key to `demo` when prompted:
 
 ```bash
 llm keys set opstower
-```
-
-## Example output:
-
-```text
-% llm 'What is the average CPU utilization of my EC2 instances?'
-
-Log:
-https://app.opstower.ai/chats/d98adf29-3973-4352-805a-8232e1c97367/transcript
-
-I'll fetch all the EC2 instances and calculate their average CPU utilization.
-
-Generating AWS SDK code...this will take up to 60 seconds...
-
-The average CPU utilization of your EC2 instances is approximately 40.12%.
 ```
 
 ## Uninstall
