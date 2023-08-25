@@ -39,6 +39,16 @@ llm "What is the average CPU utilization of my EC2 instances?"
 
 See [some example questions](https://gist.github.com/itsderek23/300fb4184c10895f82a9b9eb62fabd60) the agent has been evaluated with and the [evaluation results](https://www.opstower.ai/2023-evaluating-ai-agents/).
 
+## Demo Mode
+
+You can execute commands against a demonstration AWS account that contains an EC2 instance, RDS instance, an Application Load Balancer, several Lambda functions, S3 buckets, and more. 
+
+Set the opstower key to `demo` when prompted:
+
+```bash
+llm keys set opstower
+```
+
 ## Example output:
 
 ```text
