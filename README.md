@@ -99,3 +99,15 @@ You can create an IAM user with read-only access for use with OpsTower.ai.
 11. Leave the description blank and click 'Create access key'.
 12. Click the 'Download .csv file' button and save the file to your computer. Open the file and use the keys.
 
+## How it works
+
+OpsTower.ai provides a OpenAI-compatible API. The `llm` CLI utility sends your credentials and question to our API. We then generate AWS SDK code to answer your question in an isolated environment and summarize the response.
+
+## Limitations
+
+1. Only read-only operations are permitted. To be safe, you should only use an IAM user with read-only access.
+2. OpsTower.ai does not support higher-level and/or abstact questions like "Has there been a sudden change in any critical ec2, rds, or s3 metrics?". Try to be specific.
+3. Support for the `llm --continue` option is not yet available.
+
+
+
