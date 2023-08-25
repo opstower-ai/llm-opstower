@@ -2,6 +2,8 @@
 
 An AWS CLI AI assistant that can answer questions about your AWS resources and perform calculations on cloudwatch metrics from the command line.
 
+[![asciicast](https://asciinema.org/a/604723.svg)](https://asciinema.org/a/604723)
+
 ## Installation
 
 Installed as a plugin for [LLM](https://llm.datasette.io/), A CLI utility for interacting with LLMs.
