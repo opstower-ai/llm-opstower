@@ -34,7 +34,6 @@ Set your API key.
 Use `demo` to try with a live AWS account we provide. Or, provide a key in the form of `AWS_ACCESS_KEY_ID:AWS_SECRET_ACCESS_KEY`:
 
 ```bash
- llm keys set opstower
 llm keys set opstower --value demo
 ```
 
