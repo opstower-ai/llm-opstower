@@ -48,7 +48,23 @@ llm models default opstower
 llm "What is the average CPU utilization of my EC2 instances?"
 ```
 
-See [some example questions](https://gist.github.com/itsderek23/300fb4184c10895f82a9b9eb62fabd60) the agent has been evaluated with and the [evaluation results](https://www.opstower.ai/2023-evaluating-ai-agents/).
+```bash
+llm "Are all of our ec2 instances running?"
+```
+
+```bash
+llm "how many cloudwatch alarms are in the alarm state?"
+```
+
+```bash
+llm "Were there any Lambda invocations that lasted over 5 seconds in the last day?"
+```
+
+## How it works
+
+OpsTower.ai provides a OpenAI-compatible API. The `llm` CLI utility sends your credentials and question to our API. We then generate AWS SDK code to answer your question and execute it in an isolated environment, summarizing the response.
+
+Read how the agent is structured and our current [evaluation results](https://www.opstower.ai/2023-evaluating-ai-agents/) against an AWS question dataset.
 
 ## Authentication
 
@@ -68,12 +84,6 @@ Set the opstower key to `demo`:
 llm keys set opstower --value demo
 ```
 
-## Uninstall
-
-```bash
-llm uninstall llm-opstower
-```
-
 ## Creating a read-only IAM user
 
 You can create an IAM user with read-only access for use with OpsTower.ai.
@@ -91,15 +101,14 @@ You can create an IAM user with read-only access for use with OpsTower.ai.
 11. Leave the description blank and click 'Create access key'.
 12. Click the 'Download .csv file' button and save the file to your computer. Open the file and use the keys.
 
-## How it works
-
-OpsTower.ai provides a OpenAI-compatible API. The `llm` CLI utility sends your credentials and question to our API. We then generate AWS SDK code to answer your question and execute it in an isolated environment, summarizing the response.
-
 ## Limitations
 
 1. Only read-only operations are permitted. To be safe, you should only use an IAM user with read-only access.
 2. OpsTower.ai does not support higher-level and/or abstact questions like "Has there been a sudden change in any critical ec2, rds, or s3 metrics?". Try to be specific.
 3. Support for the `llm --continue` option is not yet available.
 
+## Uninstall
 
-
+```bash
+llm uninstall llm-opstower
+```
