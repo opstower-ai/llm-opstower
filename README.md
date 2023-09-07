@@ -2,7 +2,7 @@
 
 As of Sep '23, an AWS CLI AI assistant that can answer questions about your AWS resources and perform calculations on cloudwatch metrics from the command line.
 
-We're continuing to improve AWS results while adding additional domain knowledge (ex: Terraform, Kubernetes, deployments, Docker, etc).
+We're continuing to improve AWS results while adding additional domain knowledge (ex: Terraform, Kubernetes, deployments, Docker, etc). __📅 [Book a time on my calendar](https://calendly.com/derek-haynes) to chat about what capabalities you'd like to see.__
 
 Watch the screencast below to see the DevOps AI experience:
 
