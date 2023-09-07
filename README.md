@@ -1,6 +1,8 @@
-# 🗼 OpsTower.ai AWS AI CLI Assistant
+# 🗼 OpsTower.ai DevOps AI Assistant
 
-An AWS CLI AI assistant that can answer questions about your AWS resources and perform calculations on cloudwatch metrics from the command line.
+As of Sep '23, an AWS CLI AI assistant that can answer questions about your AWS resources and perform calculations on cloudwatch metrics from the command line.
+
+We're continuing to improve AWS results while adding additional domain knowledge (ex: Terraform, Kubernetes, deployments, Docker, etc).
 
 <p align="center">
   <a href="https://asciinema.org/a/604723" target="_blank"><img src="https://asciinema.org/a/604723.svg" width=600 /></a>
