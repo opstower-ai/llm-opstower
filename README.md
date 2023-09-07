@@ -4,7 +4,7 @@ As of Sep '23, an AWS CLI AI assistant that can answer questions about your AWS 
 
 We're continuing to improve AWS results while adding additional domain knowledge (ex: Terraform, Kubernetes, deployments, Docker, etc). 
 
-__📅 _[Book a time on my calendar](https://calendly.com/derek-haynes) to chat about what capabalities you'd like to see._ __
+_📅 [Book a time on my calendar](https://calendly.com/derek-haynes) to chat about what capabalities you'd like to see._
 
 Watch the screencast below to see the DevOps AI experience:
 
