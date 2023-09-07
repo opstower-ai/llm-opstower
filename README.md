@@ -6,8 +6,6 @@ As of Sep '23, the assistant that can answer questions about your AWS resources 
 
 _📅 [Book a time on my calendar](https://calendly.com/derek-haynes) or email derek@opstower.ai to chat about what capabalities you'd like to see._
 
-Watch the screencast below to see the DevOps AI experience:
-
 <p align="center">
   <a href="https://asciinema.org/a/604723" target="_blank"><img src="https://asciinema.org/a/604723.svg" width=600 /></a>
 </p>
