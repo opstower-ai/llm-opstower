@@ -26,7 +26,7 @@ Unlike AI code assistants used by developers that just need access to your local
 
 You've probably played with some fragile demos in this space. That's not what we're building. At the heart of OpsTower.ai is a robust evaluation framework that allows us to measure the agent's performance against a large dataset of questions across problem domains. We're building a platform that will allow us to iterate on the agent's capabilities and measure its performance over time. We'll transparently share our results.
 
-See our [Capabilities Roadmap](#user-content-capabilities-roadmap) below for more details on planned knowledge areas.
+See our [Capabilities Roadmap](#user-content-capabilities-roadmap) below for more details on current evaluation results and planned knowledge areas.
 
 ## Install
 
