@@ -1,10 +1,10 @@
 # 🗼 OpsTower.ai DevOps AI Assistant
 
-As of Sep '23, an AWS CLI AI assistant that can answer questions about your AWS resources and perform calculations on cloudwatch metrics from the command line.
+An experimental CLI-based AI assistant for DevOps engineers.
 
-We're continuing to improve AWS results while adding additional domain knowledge (ex: Terraform, Kubernetes, deployments, Docker, etc). 
+As of Sep '23, the assistant that can answer questions about your AWS resources and perform calculations on cloudwatch metrics from the command line. [Learn about our larger vision](#user-content-vision).
 
-_📅 [Book a time on my calendar](https://calendly.com/derek-haynes) to chat about what capabalities you'd like to see._
+_📅 [Book a time on my calendar](https://calendly.com/derek-haynes) or email derek@opstower.ai to chat about what capabalities you'd like to see._
 
 Watch the screencast below to see the DevOps AI experience:
 
@@ -19,6 +19,16 @@ Watch the screencast below to see the DevOps AI experience:
 <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
 <a href="#user-content-demo-mode"><strong>Demo Mode</strong></a>
 </p>
+
+## Vision
+
+We're building the first robust, plugin-based AI Assistant to help DevOps engineers debug live systems.
+
+Unlike AI code assistants used by developers that just need access to your local coding environment, a proper DevOps-focused assistant needs to be able to interact with live systems like AWS, Docker, and Kubernetes. We're building an autonomous agent that can interact with live systems, answer questions, and take a lot of the grunt work out of DevOps.
+
+You've probably played with some fragile demos in this space. That's not what we're building. At the heart of OpsTower.ai is a robust evaluation framework that allows us to measure the agent's performance against a large dataset of questions across problem domains. We're building a platform that will allow us to iterate on the agent's capabilities and measure its performance over time. We'll transparently share our results.
+
+See our [Capabilities Roadmap](#user-content-capabilities-roadmap) below for more details on planned knowledge areas.
 
 ## Install
 
@@ -119,10 +129,6 @@ You can create an IAM user with read-only access for use with OpsTower.ai.
 | Docker  |   | N/A  |
 | Kubernetes  |   | N/A  |
 | Terraform  |   | N/A  |
-
-
-
-
 
 
 ## Limitations
