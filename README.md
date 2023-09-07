@@ -109,6 +109,22 @@ You can create an IAM user with read-only access for use with OpsTower.ai.
 11. Leave the description blank and click 'Create access key'.
 12. Click the 'Download .csv file' button and save the file to your computer. Open the file and use the keys.
 
+## Capabilities Roadmap
+
+| Knowledge area | Status | Accuracy % |
+| -------- | -------- | -------- |
+| AWS resources & cloudwatch  | Preliminary  | 90%  |
+| AWS billing  |   | N/A  |
+| AWS deployment  |   | N/A  |
+| Docker  |   | N/A  |
+| Kubernetes  |   | N/A  |
+| Terraform  |   | N/A  |
+
+
+
+
+
+
 ## Limitations
 
 1. Only read-only operations are permitted. To be safe, you should only use an IAM user with read-only access.
