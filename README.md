@@ -11,7 +11,8 @@ _📅 [Book a time on my calendar](https://calendly.com/derek-haynes) or email d
 </p>
 
 <p align="center">
-  <a href="#user-content-vision"><strong>Vision</strong></a>
+<a href="#user-content-vision"><strong>Vision</strong></a>
+<span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
 <a href="#user-content-install"><strong>Install</strong></a>
 <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
 <a href="#user-content-usage"><strong>Usage</strong></a>
