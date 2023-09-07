@@ -4,6 +4,8 @@ As of Sep '23, an AWS CLI AI assistant that can answer questions about your AWS 
 
 We're continuing to improve AWS results while adding additional domain knowledge (ex: Terraform, Kubernetes, deployments, Docker, etc).
 
+Watch the screencast below to see the DevOps AI experience:
+
 <p align="center">
   <a href="https://asciinema.org/a/604723" target="_blank"><img src="https://asciinema.org/a/604723.svg" width=600 /></a>
 </p>
