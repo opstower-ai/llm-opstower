@@ -1,8 +1,8 @@
-# 🗼 OpsTower.ai DevOps AI Assistant
+# 🗼 OpsTower.ai - DevOps AI Assistant
 
-An experimental CLI-based AI assistant for DevOps engineers.
+See beyond your dashboards, metrics, and logs with the first DevOps AI Assistant. 
 
-As of Sep '23, the assistant that can answer questions about your AWS resources and perform calculations on cloudwatch metrics from the command line. [Learn about our larger vision](#user-content-vision).
+🚧 As of Sep '23, OpsTower.ai can answer questions about your AWS resources and perform calculations on cloudwatch metrics from the command line. [Learn about our larger vision](#user-content-vision).
 
 _📅 [Book a time on my calendar](https://calendly.com/derek-haynes) or email derek@opstower.ai to chat about what capabalities you'd like to see._
 
@@ -11,6 +11,7 @@ _📅 [Book a time on my calendar](https://calendly.com/derek-haynes) or email d
 </p>
 
 <p align="center">
+  <a href="#user-content-vision"><strong>Vision</strong></a>
 <a href="#user-content-install"><strong>Install</strong></a>
 <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
 <a href="#user-content-usage"><strong>Usage</strong></a>
@@ -20,9 +21,7 @@ _📅 [Book a time on my calendar](https://calendly.com/derek-haynes) or email d
 
 ## Vision
 
-We're building the first robust, plugin-based AI Assistant to help DevOps engineers debug live systems.
-
-Unlike AI code assistants used by developers that just need access to your local coding environment, a proper DevOps-focused assistant needs to be able to interact with live systems like AWS, Docker, and Kubernetes. We're building an autonomous agent that can interact with live systems, answer questions, and take a lot of the grunt work out of DevOps.
+We're building an AI Assistant that takes the grunt work out of DevOps. OpsTower.ai connects to your systems (AWS, Docker, Kubernetes, etc) and debugs and researches problems on its own.
 
 You've probably played with some fragile demos in this space. That's not what we're building. At the heart of OpsTower.ai is a robust evaluation framework that allows us to measure the agent's performance against a large dataset of questions across problem domains. We're building a platform that will allow us to iterate on the agent's capabilities and measure its performance over time. We'll transparently share our results.
 
@@ -121,13 +120,24 @@ You can create an IAM user with read-only access for use with OpsTower.ai.
 
 | Knowledge area | Status | Accuracy % |
 | -------- | -------- | -------- |
-| AWS resources & cloudwatch  | Preliminary  | 90%  |
+| AWS resources & cloudwatch  | Preliminary  | [90%](https://www.opstower.ai/2023-evaluating-ai-agents/)  |
 | AWS billing  |   | N/A  |
 | AWS deployment  |   | N/A  |
 | Docker  |   | N/A  |
 | Kubernetes  |   | N/A  |
 | Terraform  |   | N/A  |
+| Incident Investigation  |   | N/A  |
 
+## Other DevOps AI Assistants
+
+| Name | Focus | Benchmarks? |
+| -------- | -------- | -------- |
+| [aiac](https://github.com/gofireflyio/aiac) | Infastructure as code | No |
+| [KubeCtl-ai](https://github.com/sozercan/kubectl-ai) | Kubectl plugin for OpenAI GPT | No |
+| [aiws](https://github.com/huseyinbabal/aiws) | AI Driven AWS CLI | No |
+| [Terraform AI](https://github.com/jigsaw373/terraform-ai) | Terraform assistant for OpenAI GPT  | No |
+| [tfgpt](https://github.com/flavius-dinu/tfgpt) | Provides explanations for Terraform commands and concepts | No |
+| [ReleaseAI](https://release.ai/) | AWS CLI, Kubectl, Cron | No |
 
 ## Limitations
 
