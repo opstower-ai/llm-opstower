@@ -68,6 +68,8 @@ llm "Were there any Lambda invocations that lasted over 5 seconds in the last da
 
 ## How it works
 
+![how it works](https://www.opstower.ai/assets/images/agent_eval/agent_orch.png)
+
 OpsTower.ai provides a OpenAI-compatible API. The `llm` CLI utility sends your credentials and question to our API. We then generate AWS SDK code to answer your question and execute it in an isolated environment, summarizing the response.
 
 Read how the agent is structured and our current [evaluation results](https://www.opstower.ai/2023-evaluating-ai-agents/) against an AWS question dataset.
