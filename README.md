@@ -105,14 +105,19 @@ llm keys set opstower --value demo
 
 ## Capabilities Roadmap
 
+Just like how a DevOps engineer learns, we're starting with a focus on information retrevial (ex: "what is our estimated AWS bill for this month"). After building up a base set of capabalities, we'll extend to deeper reasoning (ex: "what resources appear to be not used and/or over-provisioned and how much could be reduce costs?").
+
 | Knowledge area | Status | Accuracy % |
 | -------- | -------- | -------- |
 | AWS resources & cloudwatch  | Preliminary  | [90%](https://www.opstower.ai/2023-evaluating-ai-agents/)  |
 | AWS billing  |   | N/A  |
 | AWS deployment  |   | N/A  |
+| AWS security  |   | N/A  |
+| Advanced AWS reasoning  |   | N/A  |
 | Docker  |   | N/A  |
 | Kubernetes  |   | N/A  |
 | Terraform  |   | N/A  |
+| Advanced Kubernetes reasoning  |   | N/A  |
 | Incident Investigation  |   | N/A  |
 
 ## Other DevOps AI Assistants
