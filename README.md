@@ -105,7 +105,7 @@ llm keys set opstower --value demo
 
 ## Capabilities Roadmap
 
-Just like how a DevOps engineer learns, we're starting with a focus on information retrevial (ex: "what is our estimated AWS bill for this month"). After building up a base set of capabalities, we'll extend to deeper reasoning (ex: "what resources appear to be not used and/or over-provisioned and how much could we reduce costs?").
+Just like how a DevOps engineer learns, we're starting with a focus on information retrevial (ex: "what is our estimated AWS bill for this month"). After building up a base set of capabalities, we'll extend to tackling reasoning you cannot infer from a ready-made dashboard (ex: "what resources appear to be not used and/or over-provisioned and how much could we reduce costs?"). 
 
 | Knowledge area | Status | Accuracy % |
 | -------- | -------- | -------- |
