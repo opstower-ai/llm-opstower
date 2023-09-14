@@ -130,6 +130,7 @@ Just like how a DevOps engineer learns, we're starting with a focus on informati
 | [Terraform AI](https://github.com/jigsaw373/terraform-ai) | Terraform assistant for OpenAI GPT  | No |
 | [tfgpt](https://github.com/flavius-dinu/tfgpt) | Provides explanations for Terraform commands and concepts | No |
 | [ReleaseAI](https://release.ai/) | AWS CLI, Kubectl, Cron | No |
+| [cloud copilot](https://github.com/aavetis/cloud-copilot) | Azure CLI | No |
 
 ## Limitations
 
