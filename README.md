@@ -109,7 +109,9 @@ Just like how a DevOps engineer learns, we're starting with a focus on informati
 
 | Knowledge area | Status | Accuracy % |
 | -------- | -------- | -------- |
-| AWS resources & cloudwatch  | Preliminary  | [90%](https://www.opstower.ai/2023-evaluating-ai-agents/)  |
+| AWS services  | Preliminary  | [90%](https://www.opstower.ai/2023-evaluating-ai-agents/)  |
+| AWS cloudwatch metrics | Preliminary  | [90%](https://www.opstower.ai/2023-evaluating-ai-agents/)  |
+| AWS cloudwatch logs  |   | N/A  |
 | AWS billing  |   | N/A  |
 | AWS deployment  |   | N/A  |
 | AWS security  |   | N/A  |
