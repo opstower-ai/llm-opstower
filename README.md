@@ -102,17 +102,16 @@ Set the opstower key to `demo`:
 llm keys set opstower --value demo
 ```
 
-
 ## Capabilities Roadmap
 
 Just like how a DevOps engineer learns, we're starting with a focus on information retrieval (ex: "what is our estimated AWS bill for this month"). After building up a base set of capabilities, we'll extend to tackling reasoning you cannot infer from a ready-made dashboard (ex: "what resources appear to be not used and/or over-provisioned and how much could we reduce costs?").
 
 | Knowledge area | Status | Accuracy % |
 | -------- | -------- | -------- |
-| AWS services  | Preliminary  | [90%](https://www.opstower.ai/2023-evaluating-ai-agents/)  |
-| AWS cloudwatch metrics | Preliminary  | [90%](https://www.opstower.ai/2023-evaluating-ai-agents/)  |
+| AWS services  | Released  | [92%](https://github.com/opstower-ai/devops-ai-open-leaderboard#-current-leaderboard)  |
+| AWS cloudwatch metrics | Released  | [89%](https://github.com/opstower-ai/devops-ai-open-leaderboard#-current-leaderboard)  |
+| AWS billing  | Released  | [91%](https://github.com/opstower-ai/devops-ai-open-leaderboard#-current-leaderboard)  |
 | AWS cloudwatch logs  |   | N/A  |
-| AWS billing  |   | N/A  |
 | AWS deployment  |   | N/A  |
 | AWS security  |   | N/A  |
 | Advanced AWS reasoning  |   | N/A  |
@@ -121,19 +120,6 @@ Just like how a DevOps engineer learns, we're starting with a focus on informati
 | Terraform  |   | N/A  |
 | Advanced Kubernetes reasoning  |   | N/A  |
 | Incident Investigation  |   | N/A  |
-
-## Other DevOps AI Assistants
-
-| Name | Focus | Benchmarks? |
-| -------- | -------- | -------- |
-| [aiac](https://github.com/gofireflyio/aiac) | Infastructure as code | No |
-| [KubeCtl-ai](https://github.com/sozercan/kubectl-ai) | Kubectl plugin for OpenAI GPT | No |
-| [aiws](https://github.com/huseyinbabal/aiws) | AI Driven AWS CLI | No |
-| [Terraform AI](https://github.com/jigsaw373/terraform-ai) | Terraform assistant for OpenAI GPT  | No |
-| [tfgpt](https://github.com/flavius-dinu/tfgpt) | Provides explanations for Terraform commands and concepts | No |
-| [ReleaseAI](https://release.ai/) | AWS CLI, Kubectl, Cron | No |
-| [cloud copilot](https://github.com/aavetis/cloud-copilot) | Azure CLI | No |
-| [kubiya](https://www.kubiya.ai/) | AWS, Kubernetes, GitHub, etc | No |
 
 ## Limitations
 
