@@ -4,6 +4,8 @@ See beyond your dashboards, metrics, and logs. OpsTower.ai takes the grunt work 
 
 🚧 As of Sep '23, OpsTower.ai can answer questions about your AWS resources and perform calculations on cloudwatch metrics from the command line. [Learn about our larger vision](#user-content-vision).
 
+__🏆 OpsTower.ai is the current SOTA for accuracy in the [DevOps AI Assistant Open Leaderboard](https://github.com/opstower-ai/devops-ai-open-leaderboard) for AWS Services, AWS Cloudwatch Metrics, and AWS Billing.__
+
 _📅 [Book a time on my calendar](https://calendly.com/derek-haynes) or email derek@opstower.ai to chat about what capabalities you'd like to see._
 
 <p align="center">
