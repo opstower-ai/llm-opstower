@@ -73,14 +73,13 @@ __AWS Cloudwatch Metrics__
 ```bash
 llm "What is the average CPU utilization of my EC2 instances?"
 ```
-
-_The default timeframe is the past hour._
-
 __AWS Billing__
 
 ```bash
 llm "breakdown bill by aws service over the past 30 days"
 ```
+
+_The default timeframe is the past hour. You can specify a different timeframe in the question (ex: "...over the past 10 minutes")._
 
 ## How it works
 
