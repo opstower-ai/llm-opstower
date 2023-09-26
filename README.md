@@ -60,22 +60,26 @@ Make `opstower` your default model:
 llm models default opstower
 ```
 
-## Usage
+## Usage Examples
+
+__AWS Services__
+
+```bash
+llm "list each ec2 instance id, name, state, last restart, image, and size"
+```
+
+__AWS Cloudwatch Metrics__
 
 ```bash
 llm "What is the average CPU utilization of my EC2 instances?"
 ```
 
-```bash
-llm "Are all of our ec2 instances running?"
-```
+_The default timeframe is the past hour._
+
+__AWS Billing__
 
 ```bash
-llm "how many cloudwatch alarms are in the alarm state?"
-```
-
-```bash
-llm "Were there any Lambda invocations that lasted over 5 seconds in the last day?"
+llm "breakdown bill by aws service over the past 30 days"
 ```
 
 ## How it works
