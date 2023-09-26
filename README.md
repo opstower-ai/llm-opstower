@@ -9,7 +9,7 @@ __🏆 OpsTower.ai is the current SOTA for accuracy in the [DevOps AI Assistant 
 _📅 [Book a time on my calendar](https://calendly.com/derek-haynes) or email derek@opstower.ai to chat about what capabalities you'd like to see._
 
 <p align="center">
-  <a href="https://asciinema.org/a/604723" target="_blank"><img src="https://asciinema.org/a/604723.svg" width=600 /></a>
+  <a href="https://www.loom.com/share/dcab0392e5104364a8dcc6a05491b906?sid=378db519-45c7-49df-b792-6d7af0d8854a" target="_blank"><img src="https://public-opstower.s3.amazonaws.com/demo_screenshot.png"/></a>
 </p>
 
 <p align="center">
