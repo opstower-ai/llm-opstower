@@ -94,7 +94,7 @@ Read how the agent is structured and our current [evaluation results](https://ww
 You can query against your account by setting your API key in the following format:
 
 ```bash
-llm keys set opstower --value AWS_ACCESS_KEY_ID:AWS_SECRET_ACCESS_KEY
+llm keys set opstower --value AWS_ACCESS_KEY_ID:AWS_SECRET_ACCESS_KEY:AWS_REGION
 ```
 
 ## Demo Mode
