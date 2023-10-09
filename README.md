@@ -2,7 +2,7 @@
 
 See beyond your dashboards, metrics, and logs. OpsTower.ai takes the grunt work out of DevOps, connecting to your systems (AWS, Docker, Kubernetes, etc) and debugging problems on its own.
 
-🚧 As of Sep '23, OpsTower.ai can answer questions about your AWS resources and perform calculations on cloudwatch metrics from the command line. [Learn about our larger vision](#user-content-vision).
+🚧 As of Oct '23, OpsTower.ai can answer questions about your AWS resources and perform calculations on cloudwatch metrics from the command line. [Learn about our larger vision](#user-content-vision).
 
 __🏆 OpsTower.ai is the current SOTA for accuracy in the [DevOps AI Assistant Open Leaderboard](https://github.com/opstower-ai/devops-ai-open-leaderboard) for AWS Services, AWS Cloudwatch Metrics, and AWS Billing.__
 
