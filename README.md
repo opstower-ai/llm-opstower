@@ -116,7 +116,7 @@ Just like how a Junior DevOps engineer isn't assigned with high-level tasks, Ops
 | AWS services  | Released  | [92%](https://github.com/opstower-ai/devops-ai-open-leaderboard#-current-leaderboard)  |
 | AWS cloudwatch metrics | Released  | [89%](https://github.com/opstower-ai/devops-ai-open-leaderboard#-current-leaderboard)  |
 | AWS billing  | Released  | [91%](https://github.com/opstower-ai/devops-ai-open-leaderboard#-current-leaderboard)  |
-| AWS cloudwatch logs  |   | N/A  |
+| AWS cloudwatch logs  |   | 🚧 |
 | AWS deployment  |   | N/A  |
 | AWS security  |   | N/A  |
 | Advanced AWS reasoning  |   | N/A  |
