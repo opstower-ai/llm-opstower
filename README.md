@@ -24,9 +24,9 @@ _📅 [Book a time on my calendar](https://calendly.com/derek-haynes) or email d
 
 ## Vision
 
-We're building an AI Assistant that takes the grunt work out of DevOps. OpsTower.ai connects to your systems (AWS, Docker, Kubernetes, etc) and debugs and researches problems on its own.
+OpsTower.ai is AI Assistant that takes the grunt work out of DevOps. OpsTower.ai connects to your systems (AWS, Docker, Kubernetes, etc) and debugs and researches problems on its own.
 
-You've probably played with some fragile demos in this space. That's not what we're building. At the heart of OpsTower.ai is a robust evaluation framework that allows us to measure the agent's performance against a large dataset of questions across problem domains. We're building a platform that will allow us to iterate on the agent's capabilities and measure its performance over time. We'll transparently share our results.
+You've probably played with some fragile demos in this space. That's not OpsTower.ai. At the heart of OpsTower.ai is a robust evaluation framework that allows us to measure the agent's performance against a large dataset of questions across problem domains. We're building a platform that will allow us to iterate on the agent's capabilities and measure its performance over time. We'll transparently share our results.
 
 See our [Capabilities Roadmap](#user-content-capabilities-roadmap) below for more details on current evaluation results and planned knowledge areas.
 
@@ -85,7 +85,7 @@ _The default timeframe is the past hour. You can specify a different timeframe i
 
 ![how it works](https://www.opstower.ai/assets/images/agent_eval/agent_orch.png)
 
-OpsTower.ai provides a OpenAI-compatible API. The `llm` CLI utility sends your credentials and question to our API. We then generate AWS SDK code to answer your question and execute it in an isolated environment, summarizing the response.
+OpsTower.ai provides a OpenAI-compatible API. The `llm` CLI utility sends your credentials and question to our API. Server-side, OpsTower.ai generates AWS SDK code to answer your question and execute it in an isolated environment, summarizing the response.
 
 Read how the agent is structured and our current [evaluation results](https://www.opstower.ai/2023-evaluating-ai-agents/) against an AWS question dataset.
 
@@ -109,7 +109,7 @@ llm keys set opstower --value demo
 
 ## Capabilities Roadmap
 
-Just like how a DevOps engineer learns, we're starting with a focus on information retrieval (ex: "what is our estimated AWS bill for this month"). After building up a base set of capabilities, we'll extend to tackling reasoning you cannot infer from a ready-made dashboard (ex: "what resources appear to be not used and/or over-provisioned and how much could we reduce costs?").
+Just like how a Junior DevOps engineer isn't assigned with high-level tasks, OpsTower.ai's training is starting with a focus on information retrieval (ex: "what is our estimated AWS bill for this month"). After building up a base set of skills, OpsTower.ai will tackle reasoning you cannot infer from a ready-made dashboard (ex: "what resources appear to be not used and/or over-provisioned and how much could we reduce costs?").
 
 | Knowledge area | Status | Accuracy % |
 | -------- | -------- | -------- |
