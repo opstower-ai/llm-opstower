@@ -49,8 +49,6 @@ llm install https://github.com/opstower-ai/llm-opstower/archive/refs/heads/main.
 Set your API key. Use `demo` to try with a live AWS account or see [our docs](docs/aws_read_only_iam_user.md) for on creating a read-only IAM user.
 
 ```bash
-
-```bash
 llm keys set opstower --value demo
 ```
 
